@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
-* This is the description
-*/
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 int n;
