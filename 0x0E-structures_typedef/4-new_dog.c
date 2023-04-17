@@ -19,12 +19,10 @@ int _strlen(char *j)
 
 	return (i);
 }
-
 /**
  * *_strcpy - This copies the string pointed to by src
  * @dest: This is the pointer to the buffer in which we copy the tring
  * @src: This is the string to be copied
- *
  * Return: the pointer to dest
  */
 char *_strcpy(char *dest, char *src)
@@ -51,7 +49,6 @@ char *_strcpy(char *dest, char *src)
  * @name: This is the name of the dog
  * @age: This is the age of the dog
  * @owner: This is the owner of the dog
- *
  * Return: This is the pointer to the new dog.
  */
 dog_t *new_dog(char *name, float age, char *owner)
